@@ -1,6 +1,6 @@
 class MetersCommands
     def initialize(bot)
-        bot.command :bm do |event, *text|
+        bot.command(:bm, description: "Ask rat if something is Based or Cringe") do |event, *text|
             text = text.join(' ')
             if text == ''
                text = event.author.username
