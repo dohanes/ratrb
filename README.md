@@ -1,5 +1,6 @@
 # rat.rb
 Rat, the ONLY discord bot *(Now in Ruby!!!!!!)*
+
 [View the original version written in Python here.](https://github.com/ernieIzde8ski/ratbot)
 
 ## Requirements
