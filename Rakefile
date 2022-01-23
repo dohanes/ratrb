@@ -1,3 +1,3 @@
 task :run do
-    ruby 'bin/bot.rb'
+    ruby 'bin/start.rb'
 end
