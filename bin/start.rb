@@ -1,11 +1,9 @@
 require 'discordrb'
-require 'dotenv'
+require 'dotenv/load'
 require './lib/bot'
-
-Dotenv.load
 
 $prefix = "r!"
 
-bot = Rat.new token: ENV['TOKEN']
+bot = Rat.new token: ENV['TOKEN'], prefix: "r!"
 
 bot.run

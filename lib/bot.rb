@@ -1,7 +1,8 @@
 require './lib/modules/music'
+require './lib/modules/meters'
 
-class Rat < Discordrb::Bot
-    def initialize(token: nil)
+class Rat < Discordrb::Commands::CommandBot
+    def initialize(token: nil, prefix: nil)
         super
 
         # Obvious necessity
@@ -10,5 +11,6 @@ class Rat < Discordrb::Bot
         end
 
         MusicCommands.new self
+        MetersCommands.new self
     end
 end

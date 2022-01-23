@@ -1,6 +1,6 @@
 class MusicCommands
     def initialize(bot)
-        bot.message(with_text: $prefix + "musicstats") do |event|
+        bot.command :musicstats do |event|
             event.respond("You have listened to at least **7** music in your life. Probably.")
         end
     end
