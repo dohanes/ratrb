@@ -9,6 +9,10 @@ Rat, the ONLY discord bot _(Now in Ruby!!!!!!)_
 - Ruby 3.0.3
 - computer (buy one from your local organically grown computer farm)
 
+## Setting up
+
+`bundle install`
+
 ## Running
 
 ```bash
