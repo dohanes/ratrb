@@ -1,3 +1,3 @@
 task :run do
-    ruby 'bin/start.rb'
+    ruby 'bin/rat.rb'
 end
