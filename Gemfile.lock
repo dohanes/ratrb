@@ -51,7 +51,7 @@ GEM
     lastfm (1.27.4)
       httparty
       xml-simple
-    loofah (2.14.0)
+    loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     method_source (1.0.0)
@@ -61,9 +61,9 @@ GEM
     minitest (5.15.0)
     multi_xml (0.6.0)
     netrc (0.11.0)
-    nokogiri (1.13.3-x64-mingw32)
+    nokogiri (1.13.6-x64-mingw32)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     opus-ruby (1.0.1)
       ffi
@@ -74,7 +74,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.2)
+    rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
     railties (7.0.2.2)
       actionpack (= 7.0.2.2)
